@@ -13,7 +13,7 @@ class table extends React.Component{
     render(){
         const { classes } = this.props;
         return(
-            <Typography>This is the table component</Typography>
+            <Typography>This is the table modification</Typography>
 
         )
     }
