@@ -23,7 +23,7 @@ class table extends React.Component{
         return(
             <Container>
 
-            <Paper color='secondary' elevation={10} className={classes.paper}>
+            <Paper color='secondary' elevation={15} className={classes.paper}>
                 <Typography align='center'>This is the table component</Typography>
 
             </Paper>
