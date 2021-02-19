@@ -17,6 +17,10 @@ class Deck{
 
     }
 
+    GetNextCard()
+    {
+        return this.cards.pop();
+    }
 
 }
 function shuffle(array) {
