@@ -4,8 +4,8 @@ class Deck{
     cards = [];
 
     constructor(){
-        var i;
-        var j;
+        let i;
+        let j;
         for(i=0; i<13; i++)
         {
             for(j=0;j<this.suits.length;j++)
@@ -24,7 +24,7 @@ class Deck{
 
 }
 function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    let currentIndex = array.length, temporaryValue, randomIndex;
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {

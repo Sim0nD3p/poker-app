@@ -6,15 +6,26 @@ class Player{
     name = "Nameless Player";
     card1;
     card2;
+    hand = [];
+    handType;
 
-    constructor(name){
-        this.name= name;
+    constructor(name) {
+        this.name = name;
+        this.hand = [];
     }
 
-    assignCards(card1, card2)
-    {
+    assignCards(card1, card2) {
         this.card1 = card1;
         this.card2 = card2;
+
+    }
+
+    updateHand()
+    {
+
+    }
+    isRoyalFlush()
+    {
 
     }
 
